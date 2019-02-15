@@ -1,0 +1,48 @@
+div {
+  width: 100px;
+  height: 150px;
+  position: relative;
+  animation:  mymove 10s infinite;
+  animation-timing-function: linear;
+}
+
+.container{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 15rem;
+  transform: translateX(-50%);
+	opacity: 0.75;
+	overflow: visible;
+  transform-origin: 50% 100%;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 500px;}
+  
+  0% { transform: translate(1px, 1px) translateY(15px) rotate(0deg);}
+  5% {translateY(0px);}
+  10% { transform: translate(-1px, -2px) translateY(-15px) rotate(-5deg); }
+  15% {translateY(0px);}
+  20% { transform: translate(-3px, 0px) translateY(15px) rotate(5deg); }
+  25% {translateY(0px);}
+  30% { transform: translate(3px, 2px) translateY(-15px) rotate(0deg); }
+  35% {translateY(0px);}
+  40% { transform: translate(1px, -1px) translateY(15px) rotate(5deg); }
+  45% {translateY(0px);}
+  50% { transform: translate(-1px, 2px) translateY(-15px) rotate(-5deg); }
+  55% {translateY(0px);}
+  60% { transform: translate(-3px, 1px) translateY(15px) rotate(0deg); }
+  65% {translateY(0px);}
+  70% { transform: translate(3px, 1px) translateY(-15px) rotate(-5deg); }
+  75% {translateY(0px);}
+  80% { transform: translate(-1px, -1px) 
+translateY(15px) rotate(5deg); }
+  85% {translateY(0px);}
+  90% { transform: translate(1px, 2px) translateY(-15px) rotate(0deg); }
+  95% {translateY(0px);}
+  100% { transform: translate(1px, -2px) translateY(15px) rotate(-5deg); }
+}
+}
