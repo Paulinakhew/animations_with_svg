@@ -5,7 +5,6 @@
     transform-origin: 50% 50%;
     display: inline-block;
     animation-timing-function: linear;
-    /* <--- */
 }
 #gear2{
     animation-name: ccw;
@@ -16,8 +15,8 @@
     animation-timing-function: linear;
     top: 100px;
     position: absolute;
-    top: 71px;
-    left: 51px;
+    top: 70px;
+    left: 50px;
 }
 @keyframes ckw {
     0% {
